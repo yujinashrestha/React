@@ -7,9 +7,10 @@ function App() {
   let [counter, Setcounter]=useState(5)
  const addvalue =() =>{
 console.log("value added", counter)
-if(counter<20){
+if(counter<19){
   counter=counter+1
-Setcounter(counter)
+Setcounter(prevCounter=> prevCounter+1)
+Setcounter(prevCounter=> prevCounter+1)
 }
 
 }
