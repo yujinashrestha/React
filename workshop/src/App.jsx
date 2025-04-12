@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Home/Home'
 import { About } from './Home/About'
-import { UseState } from './usestate/UseState'
+import { UseState } from './MoodTracker/MoodTracker'
 function App() {
   const [count, setCount] = useState(0)
 

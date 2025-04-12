@@ -16,7 +16,7 @@ export const UseState = () => {
     }
   return (
     <div>
-    <h1>Mood App</h1>
+    <h1>Mood Tracker</h1>
     <h3>Mood: {mood}</h3>
     <button onClick={happy}>Happy</button>
     <button onClick={sad}>Sad</button>
